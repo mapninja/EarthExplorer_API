@@ -1,2 +1,4 @@
 # Downloads
-/downloads/
+downloads/
+.env
+notebooks/downloads/
