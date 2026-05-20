@@ -2,6 +2,14 @@
   <SRS dataAxisToSRSAxisMapping="1,2">PROJCS["NAD83 / UTM zone 11N",GEOGCS["NAD83",DATUM["North_American_Datum_1983",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],AUTHORITY["EPSG","6269"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4269"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",-117],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","26911"]]</SRS>
   <GeoTransform>  2.7752400000000000e+05,  5.9999999999999998e-01,  0.0000000000000000e+00,  4.1738580000000000e+06,  0.0000000000000000e+00, -5.9999999999999998e-01</GeoTransform>
   <VRTRasterBand dataType="Byte" band="1">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_MAXIMUM">206</MDI>
+      <MDI key="STATISTICS_MEAN">38.525955261829</MDI>
+      <MDI key="STATISTICS_STDDEV">53.095325270131</MDI>
+    </Metadata>
     <ColorInterp>Red</ColorInterp>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3611906_ne_11_060_20220624.tif</SourceFilename>
@@ -13,7 +21,6 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3611906_nw_11_060_20220624.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="10220" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10220" ySize="12460" />
       <DstRect xOff="17950" yOff="126910" xSize="10220" ySize="12460" />
     </SimpleSource>
@@ -27,21 +34,18 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711841_nw_11_060_20220710.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="10140" RasterYSize="12430" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10140" ySize="12430" />
       <DstRect xOff="75070" yOff="58840" xSize="10140" ySize="12430" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711841_sw_11_060_20220710.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="10150" RasterYSize="12420" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12420" />
       <DstRect xOff="74830" yOff="70400" xSize="10150" ySize="12420" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711922_se_11_060_20220812.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="10140" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10140" ySize="12450" />
       <DstRect xOff="30330" yOff="0" xSize="10140" ySize="12450" />
     </SimpleSource>
@@ -62,21 +66,18 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711930_ne_11_060_20220812.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="10150" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12460" />
       <DstRect xOff="30050" yOff="11550" xSize="10150" ySize="12460" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711930_nw_11_060_20220812.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="10150" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12460" />
       <DstRect xOff="20850" yOff="11320" xSize="10150" ySize="12460" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711930_sw_11_060_20220812.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="10170" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10170" ySize="12460" />
       <DstRect xOff="20550" yOff="22880" xSize="10170" ySize="12460" />
     </SimpleSource>
@@ -111,7 +112,6 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711937_ne_11_060_20220709.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="10170" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10170" ySize="12460" />
       <DstRect xOff="11050" yOff="34210" xSize="10170" ySize="12460" />
     </SimpleSource>
@@ -125,14 +125,12 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711937_sw_11_060_20220803.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="10200" RasterYSize="12470" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12470" />
       <DstRect xOff="1520" yOff="45530" xSize="10200" ySize="12470" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711938_ne_11_060_20220708.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="10160" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10160" ySize="12450" />
       <DstRect xOff="29480" yOff="34670" xSize="10160" ySize="12450" />
     </SimpleSource>
@@ -146,35 +144,30 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711938_se_11_060_20220708.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="10170" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10170" ySize="12450" />
       <DstRect xOff="29200" yOff="46230" xSize="10170" ySize="12450" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711938_sw_11_060_20220708.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="10180" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10180" ySize="12460" />
       <DstRect xOff="19970" yOff="46000" xSize="10180" ySize="12460" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711939_nw_11_060_20220708.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="10150" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12440" />
       <DstRect xOff="38700" yOff="34900" xSize="10150" ySize="12440" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711939_sw_11_060_20220708.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="10160" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10160" ySize="12450" />
       <DstRect xOff="38420" yOff="46450" xSize="10160" ySize="12450" />
     </SimpleSource>
     <ComplexSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711940_nw_11_060_20220708.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="10140" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10140" ySize="12440" />
       <DstRect xOff="57130" yOff="35320" xSize="10140" ySize="12440" />
       <NODATA>0</NODATA>
@@ -189,7 +182,6 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711940_sw_11_060_20220708.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="10150" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12440" />
       <DstRect xOff="56870" yOff="46880" xSize="10150" ySize="12440" />
       <NODATA>0</NODATA>
@@ -197,14 +189,12 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711945_nw_11_060_20220803.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="10200" RasterYSize="12470" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12470" />
       <DstRect xOff="1220" yOff="57080" xSize="10200" ySize="12470" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711945_se_11_060_20220803.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="10200" RasterYSize="12470" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12470" />
       <DstRect xOff="10150" yOff="68880" xSize="10200" ySize="12470" />
     </SimpleSource>
@@ -218,14 +208,12 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711946_nw_11_060_20220709.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="10190" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10190" ySize="12460" />
       <DstRect xOff="19680" yOff="57560" xSize="10190" ySize="12460" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711947_ne_11_060_20220708.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="10160" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10160" ySize="12440" />
       <DstRect xOff="47380" yOff="58230" xSize="10160" ySize="12440" />
     </SimpleSource>
@@ -246,14 +234,12 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711947_sw_11_060_20220708.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="10180" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10180" ySize="12450" />
       <DstRect xOff="37870" yOff="69570" xSize="10180" ySize="12450" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711948_ne_11_060_20220807.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="10150" RasterYSize="12420" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12420" />
       <DstRect xOff="65840" yOff="58650" xSize="10150" ySize="12420" />
     </SimpleSource>
@@ -267,28 +253,24 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711948_se_11_060_20220807.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="10150" RasterYSize="12430" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12430" />
       <DstRect xOff="65590" yOff="70200" xSize="10150" ySize="12430" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711948_sw_11_060_20220708.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="10160" RasterYSize="12430" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10160" ySize="12430" />
       <DstRect xOff="56350" yOff="70000" xSize="10160" ySize="12430" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711953_ne_11_060_20220803.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="10210" RasterYSize="12470" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12470" />
       <DstRect xOff="9850" yOff="80440" xSize="10210" ySize="12470" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711953_nw_11_060_20220803.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="10210" RasterYSize="12470" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12470" />
       <DstRect xOff="610" yOff="80200" xSize="10210" ySize="12470" />
     </SimpleSource>
@@ -302,7 +284,6 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711953_sw_11_060_20220803.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="10220" RasterYSize="12470" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10220" ySize="12470" />
       <DstRect xOff="300" yOff="91760" xSize="10220" ySize="12470" />
     </SimpleSource>
@@ -330,7 +311,6 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711954_sw_11_060_20220708.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="10210" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12450" />
       <DstRect xOff="18810" yOff="92240" xSize="10210" ySize="12450" />
     </SimpleSource>
@@ -344,14 +324,12 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711955_nw_11_060_20220708.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="10180" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10180" ySize="12450" />
       <DstRect xOff="37600" yOff="81130" xSize="10180" ySize="12450" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711955_se_11_060_20220708.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="10180" RasterYSize="12430" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10180" ySize="12430" />
       <DstRect xOff="46580" yOff="92910" xSize="10180" ySize="12430" />
     </SimpleSource>
@@ -365,14 +343,12 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711956_nw_11_060_20220708.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="10170" RasterYSize="12430" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10170" ySize="12430" />
       <DstRect xOff="56090" yOff="81560" xSize="10170" ySize="12430" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711961_ne_11_060_20220803.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="10220" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10220" ySize="12460" />
       <DstRect xOff="9260" yOff="103560" xSize="10220" ySize="12460" />
     </SimpleSource>
@@ -386,7 +362,6 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711961_se_11_060_20220803.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="10230" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10230" ySize="12460" />
       <DstRect xOff="8960" yOff="115120" xSize="10230" ySize="12460" />
     </SimpleSource>
@@ -400,19 +375,25 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711963_ne_11_060_20220708.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="10190" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10190" ySize="12440" />
       <DstRect xOff="46310" yOff="104460" xSize="10190" ySize="12440" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711963_nw_11_060_20220708.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="10200" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12440" />
       <DstRect xOff="37050" yOff="104250" xSize="10200" ySize="12440" />
     </SimpleSource>
   </VRTRasterBand>
   <VRTRasterBand dataType="Byte" band="2">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_MAXIMUM">202</MDI>
+      <MDI key="STATISTICS_MEAN">39.938805088719</MDI>
+      <MDI key="STATISTICS_STDDEV">52.263026585322</MDI>
+    </Metadata>
     <ColorInterp>Green</ColorInterp>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3611906_ne_11_060_20220624.tif</SourceFilename>
@@ -424,7 +405,6 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3611906_nw_11_060_20220624.tif</SourceFilename>
       <SourceBand>2</SourceBand>
-      <SourceProperties RasterXSize="10220" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10220" ySize="12460" />
       <DstRect xOff="17950" yOff="126910" xSize="10220" ySize="12460" />
     </SimpleSource>
@@ -438,21 +418,18 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711841_nw_11_060_20220710.tif</SourceFilename>
       <SourceBand>2</SourceBand>
-      <SourceProperties RasterXSize="10140" RasterYSize="12430" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10140" ySize="12430" />
       <DstRect xOff="75070" yOff="58840" xSize="10140" ySize="12430" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711841_sw_11_060_20220710.tif</SourceFilename>
       <SourceBand>2</SourceBand>
-      <SourceProperties RasterXSize="10150" RasterYSize="12420" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12420" />
       <DstRect xOff="74830" yOff="70400" xSize="10150" ySize="12420" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711922_se_11_060_20220812.tif</SourceFilename>
       <SourceBand>2</SourceBand>
-      <SourceProperties RasterXSize="10140" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10140" ySize="12450" />
       <DstRect xOff="30330" yOff="0" xSize="10140" ySize="12450" />
     </SimpleSource>
@@ -473,21 +450,18 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711930_ne_11_060_20220812.tif</SourceFilename>
       <SourceBand>2</SourceBand>
-      <SourceProperties RasterXSize="10150" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12460" />
       <DstRect xOff="30050" yOff="11550" xSize="10150" ySize="12460" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711930_nw_11_060_20220812.tif</SourceFilename>
       <SourceBand>2</SourceBand>
-      <SourceProperties RasterXSize="10150" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12460" />
       <DstRect xOff="20850" yOff="11320" xSize="10150" ySize="12460" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711930_sw_11_060_20220812.tif</SourceFilename>
       <SourceBand>2</SourceBand>
-      <SourceProperties RasterXSize="10170" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10170" ySize="12460" />
       <DstRect xOff="20550" yOff="22880" xSize="10170" ySize="12460" />
     </SimpleSource>
@@ -522,7 +496,6 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711937_ne_11_060_20220709.tif</SourceFilename>
       <SourceBand>2</SourceBand>
-      <SourceProperties RasterXSize="10170" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10170" ySize="12460" />
       <DstRect xOff="11050" yOff="34210" xSize="10170" ySize="12460" />
     </SimpleSource>
@@ -536,14 +509,12 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711937_sw_11_060_20220803.tif</SourceFilename>
       <SourceBand>2</SourceBand>
-      <SourceProperties RasterXSize="10200" RasterYSize="12470" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12470" />
       <DstRect xOff="1520" yOff="45530" xSize="10200" ySize="12470" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711938_ne_11_060_20220708.tif</SourceFilename>
       <SourceBand>2</SourceBand>
-      <SourceProperties RasterXSize="10160" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10160" ySize="12450" />
       <DstRect xOff="29480" yOff="34670" xSize="10160" ySize="12450" />
     </SimpleSource>
@@ -557,35 +528,30 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711938_se_11_060_20220708.tif</SourceFilename>
       <SourceBand>2</SourceBand>
-      <SourceProperties RasterXSize="10170" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10170" ySize="12450" />
       <DstRect xOff="29200" yOff="46230" xSize="10170" ySize="12450" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711938_sw_11_060_20220708.tif</SourceFilename>
       <SourceBand>2</SourceBand>
-      <SourceProperties RasterXSize="10180" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10180" ySize="12460" />
       <DstRect xOff="19970" yOff="46000" xSize="10180" ySize="12460" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711939_nw_11_060_20220708.tif</SourceFilename>
       <SourceBand>2</SourceBand>
-      <SourceProperties RasterXSize="10150" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12440" />
       <DstRect xOff="38700" yOff="34900" xSize="10150" ySize="12440" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711939_sw_11_060_20220708.tif</SourceFilename>
       <SourceBand>2</SourceBand>
-      <SourceProperties RasterXSize="10160" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10160" ySize="12450" />
       <DstRect xOff="38420" yOff="46450" xSize="10160" ySize="12450" />
     </SimpleSource>
     <ComplexSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711940_nw_11_060_20220708.tif</SourceFilename>
       <SourceBand>2</SourceBand>
-      <SourceProperties RasterXSize="10140" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10140" ySize="12440" />
       <DstRect xOff="57130" yOff="35320" xSize="10140" ySize="12440" />
       <NODATA>0</NODATA>
@@ -600,7 +566,6 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711940_sw_11_060_20220708.tif</SourceFilename>
       <SourceBand>2</SourceBand>
-      <SourceProperties RasterXSize="10150" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12440" />
       <DstRect xOff="56870" yOff="46880" xSize="10150" ySize="12440" />
       <NODATA>0</NODATA>
@@ -608,14 +573,12 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711945_nw_11_060_20220803.tif</SourceFilename>
       <SourceBand>2</SourceBand>
-      <SourceProperties RasterXSize="10200" RasterYSize="12470" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12470" />
       <DstRect xOff="1220" yOff="57080" xSize="10200" ySize="12470" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711945_se_11_060_20220803.tif</SourceFilename>
       <SourceBand>2</SourceBand>
-      <SourceProperties RasterXSize="10200" RasterYSize="12470" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12470" />
       <DstRect xOff="10150" yOff="68880" xSize="10200" ySize="12470" />
     </SimpleSource>
@@ -629,14 +592,12 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711946_nw_11_060_20220709.tif</SourceFilename>
       <SourceBand>2</SourceBand>
-      <SourceProperties RasterXSize="10190" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10190" ySize="12460" />
       <DstRect xOff="19680" yOff="57560" xSize="10190" ySize="12460" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711947_ne_11_060_20220708.tif</SourceFilename>
       <SourceBand>2</SourceBand>
-      <SourceProperties RasterXSize="10160" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10160" ySize="12440" />
       <DstRect xOff="47380" yOff="58230" xSize="10160" ySize="12440" />
     </SimpleSource>
@@ -657,14 +618,12 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711947_sw_11_060_20220708.tif</SourceFilename>
       <SourceBand>2</SourceBand>
-      <SourceProperties RasterXSize="10180" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10180" ySize="12450" />
       <DstRect xOff="37870" yOff="69570" xSize="10180" ySize="12450" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711948_ne_11_060_20220807.tif</SourceFilename>
       <SourceBand>2</SourceBand>
-      <SourceProperties RasterXSize="10150" RasterYSize="12420" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12420" />
       <DstRect xOff="65840" yOff="58650" xSize="10150" ySize="12420" />
     </SimpleSource>
@@ -678,28 +637,24 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711948_se_11_060_20220807.tif</SourceFilename>
       <SourceBand>2</SourceBand>
-      <SourceProperties RasterXSize="10150" RasterYSize="12430" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12430" />
       <DstRect xOff="65590" yOff="70200" xSize="10150" ySize="12430" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711948_sw_11_060_20220708.tif</SourceFilename>
       <SourceBand>2</SourceBand>
-      <SourceProperties RasterXSize="10160" RasterYSize="12430" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10160" ySize="12430" />
       <DstRect xOff="56350" yOff="70000" xSize="10160" ySize="12430" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711953_ne_11_060_20220803.tif</SourceFilename>
       <SourceBand>2</SourceBand>
-      <SourceProperties RasterXSize="10210" RasterYSize="12470" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12470" />
       <DstRect xOff="9850" yOff="80440" xSize="10210" ySize="12470" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711953_nw_11_060_20220803.tif</SourceFilename>
       <SourceBand>2</SourceBand>
-      <SourceProperties RasterXSize="10210" RasterYSize="12470" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12470" />
       <DstRect xOff="610" yOff="80200" xSize="10210" ySize="12470" />
     </SimpleSource>
@@ -713,7 +668,6 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711953_sw_11_060_20220803.tif</SourceFilename>
       <SourceBand>2</SourceBand>
-      <SourceProperties RasterXSize="10220" RasterYSize="12470" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10220" ySize="12470" />
       <DstRect xOff="300" yOff="91760" xSize="10220" ySize="12470" />
     </SimpleSource>
@@ -741,7 +695,6 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711954_sw_11_060_20220708.tif</SourceFilename>
       <SourceBand>2</SourceBand>
-      <SourceProperties RasterXSize="10210" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12450" />
       <DstRect xOff="18810" yOff="92240" xSize="10210" ySize="12450" />
     </SimpleSource>
@@ -755,14 +708,12 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711955_nw_11_060_20220708.tif</SourceFilename>
       <SourceBand>2</SourceBand>
-      <SourceProperties RasterXSize="10180" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10180" ySize="12450" />
       <DstRect xOff="37600" yOff="81130" xSize="10180" ySize="12450" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711955_se_11_060_20220708.tif</SourceFilename>
       <SourceBand>2</SourceBand>
-      <SourceProperties RasterXSize="10180" RasterYSize="12430" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10180" ySize="12430" />
       <DstRect xOff="46580" yOff="92910" xSize="10180" ySize="12430" />
     </SimpleSource>
@@ -776,14 +727,12 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711956_nw_11_060_20220708.tif</SourceFilename>
       <SourceBand>2</SourceBand>
-      <SourceProperties RasterXSize="10170" RasterYSize="12430" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10170" ySize="12430" />
       <DstRect xOff="56090" yOff="81560" xSize="10170" ySize="12430" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711961_ne_11_060_20220803.tif</SourceFilename>
       <SourceBand>2</SourceBand>
-      <SourceProperties RasterXSize="10220" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10220" ySize="12460" />
       <DstRect xOff="9260" yOff="103560" xSize="10220" ySize="12460" />
     </SimpleSource>
@@ -797,7 +746,6 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711961_se_11_060_20220803.tif</SourceFilename>
       <SourceBand>2</SourceBand>
-      <SourceProperties RasterXSize="10230" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10230" ySize="12460" />
       <DstRect xOff="8960" yOff="115120" xSize="10230" ySize="12460" />
     </SimpleSource>
@@ -811,19 +759,25 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711963_ne_11_060_20220708.tif</SourceFilename>
       <SourceBand>2</SourceBand>
-      <SourceProperties RasterXSize="10190" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10190" ySize="12440" />
       <DstRect xOff="46310" yOff="104460" xSize="10190" ySize="12440" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711963_nw_11_060_20220708.tif</SourceFilename>
       <SourceBand>2</SourceBand>
-      <SourceProperties RasterXSize="10200" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12440" />
       <DstRect xOff="37050" yOff="104250" xSize="10200" ySize="12440" />
     </SimpleSource>
   </VRTRasterBand>
   <VRTRasterBand dataType="Byte" band="3">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_MAXIMUM">192</MDI>
+      <MDI key="STATISTICS_MEAN">32.22067269547</MDI>
+      <MDI key="STATISTICS_STDDEV">43.506921860862</MDI>
+    </Metadata>
     <ColorInterp>Blue</ColorInterp>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3611906_ne_11_060_20220624.tif</SourceFilename>
@@ -835,7 +789,6 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3611906_nw_11_060_20220624.tif</SourceFilename>
       <SourceBand>3</SourceBand>
-      <SourceProperties RasterXSize="10220" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10220" ySize="12460" />
       <DstRect xOff="17950" yOff="126910" xSize="10220" ySize="12460" />
     </SimpleSource>
@@ -849,21 +802,18 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711841_nw_11_060_20220710.tif</SourceFilename>
       <SourceBand>3</SourceBand>
-      <SourceProperties RasterXSize="10140" RasterYSize="12430" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10140" ySize="12430" />
       <DstRect xOff="75070" yOff="58840" xSize="10140" ySize="12430" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711841_sw_11_060_20220710.tif</SourceFilename>
       <SourceBand>3</SourceBand>
-      <SourceProperties RasterXSize="10150" RasterYSize="12420" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12420" />
       <DstRect xOff="74830" yOff="70400" xSize="10150" ySize="12420" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711922_se_11_060_20220812.tif</SourceFilename>
       <SourceBand>3</SourceBand>
-      <SourceProperties RasterXSize="10140" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10140" ySize="12450" />
       <DstRect xOff="30330" yOff="0" xSize="10140" ySize="12450" />
     </SimpleSource>
@@ -884,21 +834,18 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711930_ne_11_060_20220812.tif</SourceFilename>
       <SourceBand>3</SourceBand>
-      <SourceProperties RasterXSize="10150" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12460" />
       <DstRect xOff="30050" yOff="11550" xSize="10150" ySize="12460" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711930_nw_11_060_20220812.tif</SourceFilename>
       <SourceBand>3</SourceBand>
-      <SourceProperties RasterXSize="10150" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12460" />
       <DstRect xOff="20850" yOff="11320" xSize="10150" ySize="12460" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711930_sw_11_060_20220812.tif</SourceFilename>
       <SourceBand>3</SourceBand>
-      <SourceProperties RasterXSize="10170" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10170" ySize="12460" />
       <DstRect xOff="20550" yOff="22880" xSize="10170" ySize="12460" />
     </SimpleSource>
@@ -933,7 +880,6 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711937_ne_11_060_20220709.tif</SourceFilename>
       <SourceBand>3</SourceBand>
-      <SourceProperties RasterXSize="10170" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10170" ySize="12460" />
       <DstRect xOff="11050" yOff="34210" xSize="10170" ySize="12460" />
     </SimpleSource>
@@ -947,14 +893,12 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711937_sw_11_060_20220803.tif</SourceFilename>
       <SourceBand>3</SourceBand>
-      <SourceProperties RasterXSize="10200" RasterYSize="12470" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12470" />
       <DstRect xOff="1520" yOff="45530" xSize="10200" ySize="12470" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711938_ne_11_060_20220708.tif</SourceFilename>
       <SourceBand>3</SourceBand>
-      <SourceProperties RasterXSize="10160" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10160" ySize="12450" />
       <DstRect xOff="29480" yOff="34670" xSize="10160" ySize="12450" />
     </SimpleSource>
@@ -968,35 +912,30 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711938_se_11_060_20220708.tif</SourceFilename>
       <SourceBand>3</SourceBand>
-      <SourceProperties RasterXSize="10170" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10170" ySize="12450" />
       <DstRect xOff="29200" yOff="46230" xSize="10170" ySize="12450" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711938_sw_11_060_20220708.tif</SourceFilename>
       <SourceBand>3</SourceBand>
-      <SourceProperties RasterXSize="10180" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10180" ySize="12460" />
       <DstRect xOff="19970" yOff="46000" xSize="10180" ySize="12460" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711939_nw_11_060_20220708.tif</SourceFilename>
       <SourceBand>3</SourceBand>
-      <SourceProperties RasterXSize="10150" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12440" />
       <DstRect xOff="38700" yOff="34900" xSize="10150" ySize="12440" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711939_sw_11_060_20220708.tif</SourceFilename>
       <SourceBand>3</SourceBand>
-      <SourceProperties RasterXSize="10160" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10160" ySize="12450" />
       <DstRect xOff="38420" yOff="46450" xSize="10160" ySize="12450" />
     </SimpleSource>
     <ComplexSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711940_nw_11_060_20220708.tif</SourceFilename>
       <SourceBand>3</SourceBand>
-      <SourceProperties RasterXSize="10140" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10140" ySize="12440" />
       <DstRect xOff="57130" yOff="35320" xSize="10140" ySize="12440" />
       <NODATA>0</NODATA>
@@ -1011,7 +950,6 @@
     <ComplexSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711940_sw_11_060_20220708.tif</SourceFilename>
       <SourceBand>3</SourceBand>
-      <SourceProperties RasterXSize="10150" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12440" />
       <DstRect xOff="56870" yOff="46880" xSize="10150" ySize="12440" />
       <NODATA>0</NODATA>
@@ -1019,14 +957,12 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711945_nw_11_060_20220803.tif</SourceFilename>
       <SourceBand>3</SourceBand>
-      <SourceProperties RasterXSize="10200" RasterYSize="12470" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12470" />
       <DstRect xOff="1220" yOff="57080" xSize="10200" ySize="12470" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711945_se_11_060_20220803.tif</SourceFilename>
       <SourceBand>3</SourceBand>
-      <SourceProperties RasterXSize="10200" RasterYSize="12470" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12470" />
       <DstRect xOff="10150" yOff="68880" xSize="10200" ySize="12470" />
     </SimpleSource>
@@ -1040,14 +976,12 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711946_nw_11_060_20220709.tif</SourceFilename>
       <SourceBand>3</SourceBand>
-      <SourceProperties RasterXSize="10190" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10190" ySize="12460" />
       <DstRect xOff="19680" yOff="57560" xSize="10190" ySize="12460" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711947_ne_11_060_20220708.tif</SourceFilename>
       <SourceBand>3</SourceBand>
-      <SourceProperties RasterXSize="10160" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10160" ySize="12440" />
       <DstRect xOff="47380" yOff="58230" xSize="10160" ySize="12440" />
     </SimpleSource>
@@ -1068,14 +1002,12 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711947_sw_11_060_20220708.tif</SourceFilename>
       <SourceBand>3</SourceBand>
-      <SourceProperties RasterXSize="10180" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10180" ySize="12450" />
       <DstRect xOff="37870" yOff="69570" xSize="10180" ySize="12450" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711948_ne_11_060_20220807.tif</SourceFilename>
       <SourceBand>3</SourceBand>
-      <SourceProperties RasterXSize="10150" RasterYSize="12420" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12420" />
       <DstRect xOff="65840" yOff="58650" xSize="10150" ySize="12420" />
     </SimpleSource>
@@ -1089,28 +1021,24 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711948_se_11_060_20220807.tif</SourceFilename>
       <SourceBand>3</SourceBand>
-      <SourceProperties RasterXSize="10150" RasterYSize="12430" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12430" />
       <DstRect xOff="65590" yOff="70200" xSize="10150" ySize="12430" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711948_sw_11_060_20220708.tif</SourceFilename>
       <SourceBand>3</SourceBand>
-      <SourceProperties RasterXSize="10160" RasterYSize="12430" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10160" ySize="12430" />
       <DstRect xOff="56350" yOff="70000" xSize="10160" ySize="12430" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711953_ne_11_060_20220803.tif</SourceFilename>
       <SourceBand>3</SourceBand>
-      <SourceProperties RasterXSize="10210" RasterYSize="12470" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12470" />
       <DstRect xOff="9850" yOff="80440" xSize="10210" ySize="12470" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711953_nw_11_060_20220803.tif</SourceFilename>
       <SourceBand>3</SourceBand>
-      <SourceProperties RasterXSize="10210" RasterYSize="12470" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12470" />
       <DstRect xOff="610" yOff="80200" xSize="10210" ySize="12470" />
     </SimpleSource>
@@ -1124,7 +1052,6 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711953_sw_11_060_20220803.tif</SourceFilename>
       <SourceBand>3</SourceBand>
-      <SourceProperties RasterXSize="10220" RasterYSize="12470" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10220" ySize="12470" />
       <DstRect xOff="300" yOff="91760" xSize="10220" ySize="12470" />
     </SimpleSource>
@@ -1152,7 +1079,6 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711954_sw_11_060_20220708.tif</SourceFilename>
       <SourceBand>3</SourceBand>
-      <SourceProperties RasterXSize="10210" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12450" />
       <DstRect xOff="18810" yOff="92240" xSize="10210" ySize="12450" />
     </SimpleSource>
@@ -1166,14 +1092,12 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711955_nw_11_060_20220708.tif</SourceFilename>
       <SourceBand>3</SourceBand>
-      <SourceProperties RasterXSize="10180" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10180" ySize="12450" />
       <DstRect xOff="37600" yOff="81130" xSize="10180" ySize="12450" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711955_se_11_060_20220708.tif</SourceFilename>
       <SourceBand>3</SourceBand>
-      <SourceProperties RasterXSize="10180" RasterYSize="12430" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10180" ySize="12430" />
       <DstRect xOff="46580" yOff="92910" xSize="10180" ySize="12430" />
     </SimpleSource>
@@ -1187,14 +1111,12 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711956_nw_11_060_20220708.tif</SourceFilename>
       <SourceBand>3</SourceBand>
-      <SourceProperties RasterXSize="10170" RasterYSize="12430" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10170" ySize="12430" />
       <DstRect xOff="56090" yOff="81560" xSize="10170" ySize="12430" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711961_ne_11_060_20220803.tif</SourceFilename>
       <SourceBand>3</SourceBand>
-      <SourceProperties RasterXSize="10220" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10220" ySize="12460" />
       <DstRect xOff="9260" yOff="103560" xSize="10220" ySize="12460" />
     </SimpleSource>
@@ -1208,7 +1130,6 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711961_se_11_060_20220803.tif</SourceFilename>
       <SourceBand>3</SourceBand>
-      <SourceProperties RasterXSize="10230" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10230" ySize="12460" />
       <DstRect xOff="8960" yOff="115120" xSize="10230" ySize="12460" />
     </SimpleSource>
@@ -1222,14 +1143,12 @@
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711963_ne_11_060_20220708.tif</SourceFilename>
       <SourceBand>3</SourceBand>
-      <SourceProperties RasterXSize="10190" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10190" ySize="12440" />
       <DstRect xOff="46310" yOff="104460" xSize="10190" ySize="12440" />
     </SimpleSource>
     <SimpleSource>
       <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~maples/mortalitree/creek_2020/cog/postfire/m_3711963_nw_11_060_20220708.tif</SourceFilename>
       <SourceBand>3</SourceBand>
-      <SourceProperties RasterXSize="10200" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
       <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12440" />
       <DstRect xOff="37050" yOff="104250" xSize="10200" ySize="12440" />
     </SimpleSource>
