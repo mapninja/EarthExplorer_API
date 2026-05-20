@@ -1,0 +1,962 @@
+<VRTDataset rasterXSize="94410" rasterYSize="71040">
+  <SRS dataAxisToSRSAxisMapping="1,2">PROJCS["NAD83 / UTM zone 11N",GEOGCS["NAD83",DATUM["North_American_Datum_1983",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],AUTHORITY["EPSG","6269"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4269"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",-117],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","26911"]]</SRS>
+  <GeoTransform>  3.3133800000000000e+05,  5.9999999999999998e-01,  0.0000000000000000e+00,  4.0341000000000000e+06,  0.0000000000000000e+00, -5.9999999999999998e-01</GeoTransform>
+  <VRTRasterBand dataType="Byte" band="1">
+    <ColorInterp>Red</ColorInterp>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611835_se_11_060_20200802.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10210" RasterYSize="12380" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12380" />
+      <DstRect xOff="28480" yOff="170" xSize="10210" ySize="12380" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611835_sw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10220" RasterYSize="12390" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10220" ySize="12390" />
+      <DstRect xOff="19130" yOff="0" xSize="10220" ySize="12390" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611837_se_11_060_20200802.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10180" RasterYSize="12360" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10180" ySize="12360" />
+      <DstRect xOff="65860" yOff="770" xSize="10180" ySize="12360" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611837_sw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10190" RasterYSize="12370" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10190" ySize="12370" />
+      <DstRect xOff="56510" yOff="630" xSize="10190" ySize="12370" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611842_ne_11_060_20200802.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10230" RasterYSize="12400" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10230" ySize="12400" />
+      <DstRect xOff="9570" yOff="11380" xSize="10230" ySize="12400" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611842_nw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10240" RasterYSize="12400" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10240" ySize="12400" />
+      <DstRect xOff="220" yOff="11210" xSize="10240" ySize="12400" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611842_se_11_060_20200802.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10230" RasterYSize="12400" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10230" ySize="12400" />
+      <DstRect xOff="9360" yOff="22940" xSize="10230" ySize="12400" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611842_sw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10240" RasterYSize="12410" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10240" ySize="12410" />
+      <DstRect xOff="0" yOff="22760" xSize="10240" ySize="12410" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611843_ne_11_060_20200802.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10210" RasterYSize="12390" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12390" />
+      <DstRect xOff="28280" yOff="11720" xSize="10210" ySize="12390" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611843_nw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10230" RasterYSize="12390" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10230" ySize="12390" />
+      <DstRect xOff="18920" yOff="11560" xSize="10230" ySize="12390" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611843_se_11_060_20200802.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10220" RasterYSize="12380" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10220" ySize="12380" />
+      <DstRect xOff="28080" yOff="23280" xSize="10220" ySize="12380" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611843_sw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10230" RasterYSize="12390" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10230" ySize="12390" />
+      <DstRect xOff="18720" yOff="23110" xSize="10230" ySize="12390" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611844_ne_11_060_20200802.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10200" RasterYSize="12370" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12370" />
+      <DstRect xOff="46980" yOff="12040" xSize="10200" ySize="12370" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611844_se_11_060_20200802.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10200" RasterYSize="12380" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12380" />
+      <DstRect xOff="46800" yOff="23590" xSize="10200" ySize="12380" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611844_sw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10210" RasterYSize="12380" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12380" />
+      <DstRect xOff="37440" yOff="23440" xSize="10210" ySize="12380" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611845_ne_11_060_20200726.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10180" RasterYSize="12360" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10180" ySize="12360" />
+      <DstRect xOff="65690" yOff="12330" xSize="10180" ySize="12360" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611845_nw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10200" RasterYSize="12360" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12360" />
+      <DstRect xOff="56330" yOff="12190" xSize="10200" ySize="12360" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611845_se_11_060_20200726.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10200" RasterYSize="12360" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12360" />
+      <DstRect xOff="65510" yOff="23880" xSize="10200" ySize="12360" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611845_sw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10210" RasterYSize="12370" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12370" />
+      <DstRect xOff="56150" yOff="23740" xSize="10210" ySize="12370" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611846_se_11_060_20200726.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10180" RasterYSize="12350" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10180" ySize="12350" />
+      <DstRect xOff="84230" yOff="24150" xSize="10180" ySize="12350" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611846_sw_11_060_20200726.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10190" RasterYSize="12350" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10190" ySize="12350" />
+      <DstRect xOff="74870" yOff="24020" xSize="10190" ySize="12350" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611850_ne_11_060_20200802.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10250" RasterYSize="12390" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10250" ySize="12390" />
+      <DstRect xOff="9140" yOff="34500" xSize="10250" ySize="12390" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611851_ne_11_060_20200802.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10240" RasterYSize="12390" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10240" ySize="12390" />
+      <DstRect xOff="27870" yOff="34830" xSize="10240" ySize="12390" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611851_nw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10240" RasterYSize="12390" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10240" ySize="12390" />
+      <DstRect xOff="18510" yOff="34670" xSize="10240" ySize="12390" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611851_se_11_060_20200802.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10240" RasterYSize="12390" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10240" ySize="12390" />
+      <DstRect xOff="27670" yOff="46390" xSize="10240" ySize="12390" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611851_sw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10240" RasterYSize="12400" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10240" ySize="12400" />
+      <DstRect xOff="18300" yOff="46220" xSize="10240" ySize="12400" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611852_ne_11_060_20200802.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10210" RasterYSize="12370" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12370" />
+      <DstRect xOff="46610" yOff="35150" xSize="10210" ySize="12370" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611852_nw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10230" RasterYSize="12380" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10230" ySize="12380" />
+      <DstRect xOff="37240" yOff="34990" xSize="10230" ySize="12380" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611852_se_11_060_20200802.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10230" RasterYSize="12380" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10230" ySize="12380" />
+      <DstRect xOff="46420" yOff="46700" xSize="10230" ySize="12380" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611852_sw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10230" RasterYSize="12380" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10230" ySize="12380" />
+      <DstRect xOff="37050" yOff="46550" xSize="10230" ySize="12380" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611853_ne_11_060_20200726.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10200" RasterYSize="12360" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12360" />
+      <DstRect xOff="65340" yOff="35440" xSize="10200" ySize="12360" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611853_nw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10200" RasterYSize="12360" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12360" />
+      <DstRect xOff="55980" yOff="35300" xSize="10200" ySize="12360" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611853_se_11_060_20200726.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10210" RasterYSize="12360" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12360" />
+      <DstRect xOff="65170" yOff="46990" xSize="10210" ySize="12360" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611853_sw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10210" RasterYSize="12370" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12370" />
+      <DstRect xOff="55800" yOff="46850" xSize="10210" ySize="12370" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611854_ne_11_060_20200726.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10180" RasterYSize="12350" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10180" ySize="12350" />
+      <DstRect xOff="84080" yOff="35700" xSize="10180" ySize="12350" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611854_nw_11_060_20200726.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10190" RasterYSize="12360" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10190" ySize="12360" />
+      <DstRect xOff="74710" yOff="35570" xSize="10190" ySize="12360" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611854_se_11_060_20200726.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10190" RasterYSize="12350" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10190" ySize="12350" />
+      <DstRect xOff="83920" yOff="47260" xSize="10190" ySize="12350" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611854_sw_11_060_20200726.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10200" RasterYSize="12350" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12350" />
+      <DstRect xOff="74550" yOff="47130" xSize="10200" ySize="12350" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611860_ne_11_060_20200802.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10230" RasterYSize="12370" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10230" ySize="12370" />
+      <DstRect xOff="46240" yOff="58260" xSize="10230" ySize="12370" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611860_nw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10230" RasterYSize="12370" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10230" ySize="12370" />
+      <DstRect xOff="36860" yOff="58110" xSize="10230" ySize="12370" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611861_ne_11_060_20200726.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10220" RasterYSize="12360" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10220" ySize="12360" />
+      <DstRect xOff="65000" yOff="58550" xSize="10220" ySize="12360" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611861_nw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10220" RasterYSize="12360" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10220" ySize="12360" />
+      <DstRect xOff="55620" yOff="58410" xSize="10220" ySize="12360" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611862_nw_11_060_20200726.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10210" RasterYSize="12360" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12360" />
+      <DstRect xOff="74380" yOff="58680" xSize="10210" ySize="12360" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="2">
+    <ColorInterp>Green</ColorInterp>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611835_se_11_060_20200802.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10210" RasterYSize="12380" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12380" />
+      <DstRect xOff="28480" yOff="170" xSize="10210" ySize="12380" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611835_sw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10220" RasterYSize="12390" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10220" ySize="12390" />
+      <DstRect xOff="19130" yOff="0" xSize="10220" ySize="12390" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611837_se_11_060_20200802.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10180" RasterYSize="12360" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10180" ySize="12360" />
+      <DstRect xOff="65860" yOff="770" xSize="10180" ySize="12360" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611837_sw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10190" RasterYSize="12370" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10190" ySize="12370" />
+      <DstRect xOff="56510" yOff="630" xSize="10190" ySize="12370" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611842_ne_11_060_20200802.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10230" RasterYSize="12400" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10230" ySize="12400" />
+      <DstRect xOff="9570" yOff="11380" xSize="10230" ySize="12400" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611842_nw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10240" RasterYSize="12400" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10240" ySize="12400" />
+      <DstRect xOff="220" yOff="11210" xSize="10240" ySize="12400" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611842_se_11_060_20200802.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10230" RasterYSize="12400" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10230" ySize="12400" />
+      <DstRect xOff="9360" yOff="22940" xSize="10230" ySize="12400" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611842_sw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10240" RasterYSize="12410" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10240" ySize="12410" />
+      <DstRect xOff="0" yOff="22760" xSize="10240" ySize="12410" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611843_ne_11_060_20200802.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10210" RasterYSize="12390" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12390" />
+      <DstRect xOff="28280" yOff="11720" xSize="10210" ySize="12390" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611843_nw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10230" RasterYSize="12390" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10230" ySize="12390" />
+      <DstRect xOff="18920" yOff="11560" xSize="10230" ySize="12390" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611843_se_11_060_20200802.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10220" RasterYSize="12380" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10220" ySize="12380" />
+      <DstRect xOff="28080" yOff="23280" xSize="10220" ySize="12380" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611843_sw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10230" RasterYSize="12390" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10230" ySize="12390" />
+      <DstRect xOff="18720" yOff="23110" xSize="10230" ySize="12390" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611844_ne_11_060_20200802.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10200" RasterYSize="12370" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12370" />
+      <DstRect xOff="46980" yOff="12040" xSize="10200" ySize="12370" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611844_se_11_060_20200802.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10200" RasterYSize="12380" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12380" />
+      <DstRect xOff="46800" yOff="23590" xSize="10200" ySize="12380" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611844_sw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10210" RasterYSize="12380" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12380" />
+      <DstRect xOff="37440" yOff="23440" xSize="10210" ySize="12380" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611845_ne_11_060_20200726.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10180" RasterYSize="12360" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10180" ySize="12360" />
+      <DstRect xOff="65690" yOff="12330" xSize="10180" ySize="12360" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611845_nw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10200" RasterYSize="12360" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12360" />
+      <DstRect xOff="56330" yOff="12190" xSize="10200" ySize="12360" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611845_se_11_060_20200726.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10200" RasterYSize="12360" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12360" />
+      <DstRect xOff="65510" yOff="23880" xSize="10200" ySize="12360" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611845_sw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10210" RasterYSize="12370" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12370" />
+      <DstRect xOff="56150" yOff="23740" xSize="10210" ySize="12370" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611846_se_11_060_20200726.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10180" RasterYSize="12350" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10180" ySize="12350" />
+      <DstRect xOff="84230" yOff="24150" xSize="10180" ySize="12350" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611846_sw_11_060_20200726.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10190" RasterYSize="12350" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10190" ySize="12350" />
+      <DstRect xOff="74870" yOff="24020" xSize="10190" ySize="12350" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611850_ne_11_060_20200802.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10250" RasterYSize="12390" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10250" ySize="12390" />
+      <DstRect xOff="9140" yOff="34500" xSize="10250" ySize="12390" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611851_ne_11_060_20200802.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10240" RasterYSize="12390" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10240" ySize="12390" />
+      <DstRect xOff="27870" yOff="34830" xSize="10240" ySize="12390" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611851_nw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10240" RasterYSize="12390" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10240" ySize="12390" />
+      <DstRect xOff="18510" yOff="34670" xSize="10240" ySize="12390" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611851_se_11_060_20200802.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10240" RasterYSize="12390" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10240" ySize="12390" />
+      <DstRect xOff="27670" yOff="46390" xSize="10240" ySize="12390" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611851_sw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10240" RasterYSize="12400" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10240" ySize="12400" />
+      <DstRect xOff="18300" yOff="46220" xSize="10240" ySize="12400" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611852_ne_11_060_20200802.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10210" RasterYSize="12370" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12370" />
+      <DstRect xOff="46610" yOff="35150" xSize="10210" ySize="12370" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611852_nw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10230" RasterYSize="12380" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10230" ySize="12380" />
+      <DstRect xOff="37240" yOff="34990" xSize="10230" ySize="12380" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611852_se_11_060_20200802.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10230" RasterYSize="12380" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10230" ySize="12380" />
+      <DstRect xOff="46420" yOff="46700" xSize="10230" ySize="12380" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611852_sw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10230" RasterYSize="12380" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10230" ySize="12380" />
+      <DstRect xOff="37050" yOff="46550" xSize="10230" ySize="12380" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611853_ne_11_060_20200726.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10200" RasterYSize="12360" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12360" />
+      <DstRect xOff="65340" yOff="35440" xSize="10200" ySize="12360" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611853_nw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10200" RasterYSize="12360" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12360" />
+      <DstRect xOff="55980" yOff="35300" xSize="10200" ySize="12360" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611853_se_11_060_20200726.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10210" RasterYSize="12360" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12360" />
+      <DstRect xOff="65170" yOff="46990" xSize="10210" ySize="12360" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611853_sw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10210" RasterYSize="12370" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12370" />
+      <DstRect xOff="55800" yOff="46850" xSize="10210" ySize="12370" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611854_ne_11_060_20200726.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10180" RasterYSize="12350" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10180" ySize="12350" />
+      <DstRect xOff="84080" yOff="35700" xSize="10180" ySize="12350" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611854_nw_11_060_20200726.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10190" RasterYSize="12360" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10190" ySize="12360" />
+      <DstRect xOff="74710" yOff="35570" xSize="10190" ySize="12360" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611854_se_11_060_20200726.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10190" RasterYSize="12350" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10190" ySize="12350" />
+      <DstRect xOff="83920" yOff="47260" xSize="10190" ySize="12350" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611854_sw_11_060_20200726.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10200" RasterYSize="12350" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12350" />
+      <DstRect xOff="74550" yOff="47130" xSize="10200" ySize="12350" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611860_ne_11_060_20200802.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10230" RasterYSize="12370" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10230" ySize="12370" />
+      <DstRect xOff="46240" yOff="58260" xSize="10230" ySize="12370" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611860_nw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10230" RasterYSize="12370" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10230" ySize="12370" />
+      <DstRect xOff="36860" yOff="58110" xSize="10230" ySize="12370" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611861_ne_11_060_20200726.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10220" RasterYSize="12360" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10220" ySize="12360" />
+      <DstRect xOff="65000" yOff="58550" xSize="10220" ySize="12360" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611861_nw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10220" RasterYSize="12360" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10220" ySize="12360" />
+      <DstRect xOff="55620" yOff="58410" xSize="10220" ySize="12360" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611862_nw_11_060_20200726.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10210" RasterYSize="12360" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12360" />
+      <DstRect xOff="74380" yOff="58680" xSize="10210" ySize="12360" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="3">
+    <ColorInterp>Blue</ColorInterp>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611835_se_11_060_20200802.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10210" RasterYSize="12380" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12380" />
+      <DstRect xOff="28480" yOff="170" xSize="10210" ySize="12380" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611835_sw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10220" RasterYSize="12390" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10220" ySize="12390" />
+      <DstRect xOff="19130" yOff="0" xSize="10220" ySize="12390" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611837_se_11_060_20200802.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10180" RasterYSize="12360" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10180" ySize="12360" />
+      <DstRect xOff="65860" yOff="770" xSize="10180" ySize="12360" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611837_sw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10190" RasterYSize="12370" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10190" ySize="12370" />
+      <DstRect xOff="56510" yOff="630" xSize="10190" ySize="12370" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611842_ne_11_060_20200802.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10230" RasterYSize="12400" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10230" ySize="12400" />
+      <DstRect xOff="9570" yOff="11380" xSize="10230" ySize="12400" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611842_nw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10240" RasterYSize="12400" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10240" ySize="12400" />
+      <DstRect xOff="220" yOff="11210" xSize="10240" ySize="12400" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611842_se_11_060_20200802.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10230" RasterYSize="12400" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10230" ySize="12400" />
+      <DstRect xOff="9360" yOff="22940" xSize="10230" ySize="12400" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611842_sw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10240" RasterYSize="12410" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10240" ySize="12410" />
+      <DstRect xOff="0" yOff="22760" xSize="10240" ySize="12410" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611843_ne_11_060_20200802.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10210" RasterYSize="12390" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12390" />
+      <DstRect xOff="28280" yOff="11720" xSize="10210" ySize="12390" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611843_nw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10230" RasterYSize="12390" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10230" ySize="12390" />
+      <DstRect xOff="18920" yOff="11560" xSize="10230" ySize="12390" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611843_se_11_060_20200802.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10220" RasterYSize="12380" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10220" ySize="12380" />
+      <DstRect xOff="28080" yOff="23280" xSize="10220" ySize="12380" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611843_sw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10230" RasterYSize="12390" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10230" ySize="12390" />
+      <DstRect xOff="18720" yOff="23110" xSize="10230" ySize="12390" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611844_ne_11_060_20200802.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10200" RasterYSize="12370" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12370" />
+      <DstRect xOff="46980" yOff="12040" xSize="10200" ySize="12370" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611844_se_11_060_20200802.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10200" RasterYSize="12380" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12380" />
+      <DstRect xOff="46800" yOff="23590" xSize="10200" ySize="12380" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611844_sw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10210" RasterYSize="12380" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12380" />
+      <DstRect xOff="37440" yOff="23440" xSize="10210" ySize="12380" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611845_ne_11_060_20200726.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10180" RasterYSize="12360" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10180" ySize="12360" />
+      <DstRect xOff="65690" yOff="12330" xSize="10180" ySize="12360" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611845_nw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10200" RasterYSize="12360" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12360" />
+      <DstRect xOff="56330" yOff="12190" xSize="10200" ySize="12360" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611845_se_11_060_20200726.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10200" RasterYSize="12360" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12360" />
+      <DstRect xOff="65510" yOff="23880" xSize="10200" ySize="12360" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611845_sw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10210" RasterYSize="12370" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12370" />
+      <DstRect xOff="56150" yOff="23740" xSize="10210" ySize="12370" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611846_se_11_060_20200726.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10180" RasterYSize="12350" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10180" ySize="12350" />
+      <DstRect xOff="84230" yOff="24150" xSize="10180" ySize="12350" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611846_sw_11_060_20200726.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10190" RasterYSize="12350" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10190" ySize="12350" />
+      <DstRect xOff="74870" yOff="24020" xSize="10190" ySize="12350" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611850_ne_11_060_20200802.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10250" RasterYSize="12390" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10250" ySize="12390" />
+      <DstRect xOff="9140" yOff="34500" xSize="10250" ySize="12390" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611851_ne_11_060_20200802.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10240" RasterYSize="12390" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10240" ySize="12390" />
+      <DstRect xOff="27870" yOff="34830" xSize="10240" ySize="12390" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611851_nw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10240" RasterYSize="12390" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10240" ySize="12390" />
+      <DstRect xOff="18510" yOff="34670" xSize="10240" ySize="12390" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611851_se_11_060_20200802.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10240" RasterYSize="12390" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10240" ySize="12390" />
+      <DstRect xOff="27670" yOff="46390" xSize="10240" ySize="12390" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611851_sw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10240" RasterYSize="12400" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10240" ySize="12400" />
+      <DstRect xOff="18300" yOff="46220" xSize="10240" ySize="12400" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611852_ne_11_060_20200802.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10210" RasterYSize="12370" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12370" />
+      <DstRect xOff="46610" yOff="35150" xSize="10210" ySize="12370" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611852_nw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10230" RasterYSize="12380" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10230" ySize="12380" />
+      <DstRect xOff="37240" yOff="34990" xSize="10230" ySize="12380" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611852_se_11_060_20200802.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10230" RasterYSize="12380" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10230" ySize="12380" />
+      <DstRect xOff="46420" yOff="46700" xSize="10230" ySize="12380" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611852_sw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10230" RasterYSize="12380" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10230" ySize="12380" />
+      <DstRect xOff="37050" yOff="46550" xSize="10230" ySize="12380" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611853_ne_11_060_20200726.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10200" RasterYSize="12360" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12360" />
+      <DstRect xOff="65340" yOff="35440" xSize="10200" ySize="12360" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611853_nw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10200" RasterYSize="12360" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12360" />
+      <DstRect xOff="55980" yOff="35300" xSize="10200" ySize="12360" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611853_se_11_060_20200726.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10210" RasterYSize="12360" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12360" />
+      <DstRect xOff="65170" yOff="46990" xSize="10210" ySize="12360" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611853_sw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10210" RasterYSize="12370" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12370" />
+      <DstRect xOff="55800" yOff="46850" xSize="10210" ySize="12370" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611854_ne_11_060_20200726.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10180" RasterYSize="12350" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10180" ySize="12350" />
+      <DstRect xOff="84080" yOff="35700" xSize="10180" ySize="12350" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611854_nw_11_060_20200726.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10190" RasterYSize="12360" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10190" ySize="12360" />
+      <DstRect xOff="74710" yOff="35570" xSize="10190" ySize="12360" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611854_se_11_060_20200726.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10190" RasterYSize="12350" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10190" ySize="12350" />
+      <DstRect xOff="83920" yOff="47260" xSize="10190" ySize="12350" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611854_sw_11_060_20200726.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10200" RasterYSize="12350" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12350" />
+      <DstRect xOff="74550" yOff="47130" xSize="10200" ySize="12350" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611860_ne_11_060_20200802.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10230" RasterYSize="12370" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10230" ySize="12370" />
+      <DstRect xOff="46240" yOff="58260" xSize="10230" ySize="12370" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611860_nw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10230" RasterYSize="12370" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10230" ySize="12370" />
+      <DstRect xOff="36860" yOff="58110" xSize="10230" ySize="12370" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611861_ne_11_060_20200726.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10220" RasterYSize="12360" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10220" ySize="12360" />
+      <DstRect xOff="65000" yOff="58550" xSize="10220" ySize="12360" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611861_nw_11_060_20200802.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10220" RasterYSize="12360" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10220" ySize="12360" />
+      <DstRect xOff="55620" yOff="58410" xSize="10220" ySize="12360" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~evrobert/mortalitree/castle_2020/naip/cog/prefire/m_3611862_nw_11_060_20200726.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10210" RasterYSize="12360" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12360" />
+      <DstRect xOff="74380" yOff="58680" xSize="10210" ySize="12360" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <OverviewList resampling="nearest">2 4 8 16 32</OverviewList>
+</VRTDataset>

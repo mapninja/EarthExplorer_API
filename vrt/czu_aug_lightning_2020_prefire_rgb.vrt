@@ -1,0 +1,473 @@
+<VRTDataset rasterXSize="47400" rasterYSize="58600">
+  <SRS dataAxisToSRSAxisMapping="1,2">PROJCS["NAD83 / UTM zone 10N",GEOGCS["NAD83",DATUM["North_American_Datum_1983",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],AUTHORITY["EPSG","6269"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4269"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",-123],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","26910"]]</SRS>
+  <GeoTransform>  5.5518000000000000e+05,  5.9999999999999998e-01,  0.0000000000000000e+00,  4.1300520000000000e+06,  0.0000000000000000e+00, -5.9999999999999998e-01</GeoTransform>
+  <VRTRasterBand dataType="Byte" band="1">
+    <NoDataValue>0</NoDataValue>
+    <ColorInterp>Red</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712246_se_10_060_20200527.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="9990" RasterYSize="12300" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="9990" ySize="12300" />
+      <DstRect xOff="9230" yOff="80" xSize="9990" ySize="12300" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712246_sw_10_060_20200527.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="9990" RasterYSize="12290" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="9990" ySize="12290" />
+      <DstRect xOff="0" yOff="150" xSize="9990" ySize="12290" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712247_sw_10_060_20200527.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10000" RasterYSize="12310" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10000" ySize="12310" />
+      <DstRect xOff="18460" yOff="0" xSize="10000" ySize="12310" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712254_ne_10_060_20200527.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10000" RasterYSize="12290" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10000" ySize="12290" />
+      <DstRect xOff="9320" yOff="11640" xSize="10000" ySize="12290" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712254_nw_10_060_20200527.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="9990" RasterYSize="12290" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="9990" ySize="12290" />
+      <DstRect xOff="80" yOff="11710" xSize="9990" ySize="12290" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712254_se_10_060_20200527.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10010" RasterYSize="12300" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10010" ySize="12300" />
+      <DstRect xOff="9400" yOff="23190" xSize="10010" ySize="12300" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712254_sw_10_060_20200527.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10000" RasterYSize="12290" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10000" ySize="12290" />
+      <DstRect xOff="150" yOff="23260" xSize="10000" ySize="12290" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712255_ne_10_060_20200527.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10020" RasterYSize="12310" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10020" ySize="12310" />
+      <DstRect xOff="27790" yOff="11480" xSize="10020" ySize="12310" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712255_nw_10_060_20200527.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10010" RasterYSize="12300" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10010" ySize="12300" />
+      <DstRect xOff="18550" yOff="11560" xSize="10010" ySize="12300" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712255_se_10_060_20200527.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10020" RasterYSize="12310" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10020" ySize="12310" />
+      <DstRect xOff="27890" yOff="23030" xSize="10020" ySize="12310" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712255_sw_10_060_20200527.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10010" RasterYSize="12300" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10010" ySize="12300" />
+      <DstRect xOff="18650" yOff="23120" xSize="10010" ySize="12300" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712256_sw_10_060_20200527.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10030" RasterYSize="12320" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10030" ySize="12320" />
+      <DstRect xOff="37140" yOff="22940" xSize="10030" ySize="12320" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712262_ne_10_060_20200527.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10020" RasterYSize="12290" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10020" ySize="12290" />
+      <DstRect xOff="9480" yOff="34750" xSize="10020" ySize="12290" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712262_se_10_060_20200527.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10020" RasterYSize="12300" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10020" ySize="12300" />
+      <DstRect xOff="9570" yOff="46300" xSize="10020" ySize="12300" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712263_ne_10_060_20200527.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10030" RasterYSize="12310" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10030" ySize="12310" />
+      <DstRect xOff="27990" yOff="34590" xSize="10030" ySize="12310" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712263_nw_10_060_20200527.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10020" RasterYSize="12300" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10020" ySize="12300" />
+      <DstRect xOff="18740" yOff="34670" xSize="10020" ySize="12300" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712263_se_10_060_20200527.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10040" RasterYSize="12300" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10040" ySize="12300" />
+      <DstRect xOff="28090" yOff="46150" xSize="10040" ySize="12300" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712263_sw_10_060_20200527.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10030" RasterYSize="12300" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10030" ySize="12300" />
+      <DstRect xOff="18830" yOff="46230" xSize="10030" ySize="12300" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712264_nw_10_060_20200527.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10040" RasterYSize="12320" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10040" ySize="12320" />
+      <DstRect xOff="37240" yOff="34500" xSize="10040" ySize="12320" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712264_sw_10_060_20200527.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10050" RasterYSize="12310" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10050" ySize="12310" />
+      <DstRect xOff="37350" yOff="46060" xSize="10050" ySize="12310" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="2">
+    <NoDataValue>0</NoDataValue>
+    <ColorInterp>Green</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712246_se_10_060_20200527.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="9990" RasterYSize="12300" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="9990" ySize="12300" />
+      <DstRect xOff="9230" yOff="80" xSize="9990" ySize="12300" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712246_sw_10_060_20200527.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="9990" RasterYSize="12290" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="9990" ySize="12290" />
+      <DstRect xOff="0" yOff="150" xSize="9990" ySize="12290" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712247_sw_10_060_20200527.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10000" RasterYSize="12310" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10000" ySize="12310" />
+      <DstRect xOff="18460" yOff="0" xSize="10000" ySize="12310" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712254_ne_10_060_20200527.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10000" RasterYSize="12290" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10000" ySize="12290" />
+      <DstRect xOff="9320" yOff="11640" xSize="10000" ySize="12290" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712254_nw_10_060_20200527.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="9990" RasterYSize="12290" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="9990" ySize="12290" />
+      <DstRect xOff="80" yOff="11710" xSize="9990" ySize="12290" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712254_se_10_060_20200527.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10010" RasterYSize="12300" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10010" ySize="12300" />
+      <DstRect xOff="9400" yOff="23190" xSize="10010" ySize="12300" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712254_sw_10_060_20200527.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10000" RasterYSize="12290" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10000" ySize="12290" />
+      <DstRect xOff="150" yOff="23260" xSize="10000" ySize="12290" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712255_ne_10_060_20200527.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10020" RasterYSize="12310" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10020" ySize="12310" />
+      <DstRect xOff="27790" yOff="11480" xSize="10020" ySize="12310" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712255_nw_10_060_20200527.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10010" RasterYSize="12300" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10010" ySize="12300" />
+      <DstRect xOff="18550" yOff="11560" xSize="10010" ySize="12300" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712255_se_10_060_20200527.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10020" RasterYSize="12310" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10020" ySize="12310" />
+      <DstRect xOff="27890" yOff="23030" xSize="10020" ySize="12310" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712255_sw_10_060_20200527.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10010" RasterYSize="12300" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10010" ySize="12300" />
+      <DstRect xOff="18650" yOff="23120" xSize="10010" ySize="12300" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712256_sw_10_060_20200527.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10030" RasterYSize="12320" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10030" ySize="12320" />
+      <DstRect xOff="37140" yOff="22940" xSize="10030" ySize="12320" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712262_ne_10_060_20200527.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10020" RasterYSize="12290" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10020" ySize="12290" />
+      <DstRect xOff="9480" yOff="34750" xSize="10020" ySize="12290" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712262_se_10_060_20200527.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10020" RasterYSize="12300" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10020" ySize="12300" />
+      <DstRect xOff="9570" yOff="46300" xSize="10020" ySize="12300" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712263_ne_10_060_20200527.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10030" RasterYSize="12310" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10030" ySize="12310" />
+      <DstRect xOff="27990" yOff="34590" xSize="10030" ySize="12310" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712263_nw_10_060_20200527.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10020" RasterYSize="12300" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10020" ySize="12300" />
+      <DstRect xOff="18740" yOff="34670" xSize="10020" ySize="12300" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712263_se_10_060_20200527.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10040" RasterYSize="12300" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10040" ySize="12300" />
+      <DstRect xOff="28090" yOff="46150" xSize="10040" ySize="12300" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712263_sw_10_060_20200527.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10030" RasterYSize="12300" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10030" ySize="12300" />
+      <DstRect xOff="18830" yOff="46230" xSize="10030" ySize="12300" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712264_nw_10_060_20200527.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10040" RasterYSize="12320" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10040" ySize="12320" />
+      <DstRect xOff="37240" yOff="34500" xSize="10040" ySize="12320" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712264_sw_10_060_20200527.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10050" RasterYSize="12310" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10050" ySize="12310" />
+      <DstRect xOff="37350" yOff="46060" xSize="10050" ySize="12310" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="3">
+    <NoDataValue>0</NoDataValue>
+    <ColorInterp>Blue</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712246_se_10_060_20200527.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="9990" RasterYSize="12300" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="9990" ySize="12300" />
+      <DstRect xOff="9230" yOff="80" xSize="9990" ySize="12300" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712246_sw_10_060_20200527.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="9990" RasterYSize="12290" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="9990" ySize="12290" />
+      <DstRect xOff="0" yOff="150" xSize="9990" ySize="12290" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712247_sw_10_060_20200527.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10000" RasterYSize="12310" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10000" ySize="12310" />
+      <DstRect xOff="18460" yOff="0" xSize="10000" ySize="12310" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712254_ne_10_060_20200527.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10000" RasterYSize="12290" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10000" ySize="12290" />
+      <DstRect xOff="9320" yOff="11640" xSize="10000" ySize="12290" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712254_nw_10_060_20200527.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="9990" RasterYSize="12290" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="9990" ySize="12290" />
+      <DstRect xOff="80" yOff="11710" xSize="9990" ySize="12290" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712254_se_10_060_20200527.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10010" RasterYSize="12300" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10010" ySize="12300" />
+      <DstRect xOff="9400" yOff="23190" xSize="10010" ySize="12300" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712254_sw_10_060_20200527.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10000" RasterYSize="12290" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10000" ySize="12290" />
+      <DstRect xOff="150" yOff="23260" xSize="10000" ySize="12290" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712255_ne_10_060_20200527.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10020" RasterYSize="12310" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10020" ySize="12310" />
+      <DstRect xOff="27790" yOff="11480" xSize="10020" ySize="12310" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712255_nw_10_060_20200527.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10010" RasterYSize="12300" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10010" ySize="12300" />
+      <DstRect xOff="18550" yOff="11560" xSize="10010" ySize="12300" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712255_se_10_060_20200527.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10020" RasterYSize="12310" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10020" ySize="12310" />
+      <DstRect xOff="27890" yOff="23030" xSize="10020" ySize="12310" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712255_sw_10_060_20200527.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10010" RasterYSize="12300" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10010" ySize="12300" />
+      <DstRect xOff="18650" yOff="23120" xSize="10010" ySize="12300" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712256_sw_10_060_20200527.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10030" RasterYSize="12320" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10030" ySize="12320" />
+      <DstRect xOff="37140" yOff="22940" xSize="10030" ySize="12320" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712262_ne_10_060_20200527.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10020" RasterYSize="12290" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10020" ySize="12290" />
+      <DstRect xOff="9480" yOff="34750" xSize="10020" ySize="12290" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712262_se_10_060_20200527.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10020" RasterYSize="12300" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10020" ySize="12300" />
+      <DstRect xOff="9570" yOff="46300" xSize="10020" ySize="12300" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712263_ne_10_060_20200527.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10030" RasterYSize="12310" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10030" ySize="12310" />
+      <DstRect xOff="27990" yOff="34590" xSize="10030" ySize="12310" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712263_nw_10_060_20200527.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10020" RasterYSize="12300" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10020" ySize="12300" />
+      <DstRect xOff="18740" yOff="34670" xSize="10020" ySize="12300" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712263_se_10_060_20200527.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10040" RasterYSize="12300" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10040" ySize="12300" />
+      <DstRect xOff="28090" yOff="46150" xSize="10040" ySize="12300" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712263_sw_10_060_20200527.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10030" RasterYSize="12300" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10030" ySize="12300" />
+      <DstRect xOff="18830" yOff="46230" xSize="10030" ySize="12300" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712264_nw_10_060_20200527.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10040" RasterYSize="12320" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10040" ySize="12320" />
+      <DstRect xOff="37240" yOff="34500" xSize="10040" ySize="12320" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/~sohirota/mortalitree/czu_aug_lightning_2020/naip/cog/prefire/m_3712264_sw_10_060_20200527.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10050" RasterYSize="12310" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10050" ySize="12310" />
+      <DstRect xOff="37350" yOff="46060" xSize="10050" ySize="12310" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <OverviewList resampling="nearest">2 4 8 16 32</OverviewList>
+</VRTDataset>

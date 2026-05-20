@@ -1,0 +1,1402 @@
+<VRTDataset rasterXSize="85450" rasterYSize="139370">
+  <SRS dataAxisToSRSAxisMapping="1,2">PROJCS["NAD83 / UTM zone 11N",GEOGCS["NAD83",DATUM["North_American_Datum_1983",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],AUTHORITY["EPSG","6269"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4269"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",-117],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","26911"]]</SRS>
+  <GeoTransform>  2.7752400000000000e+05,  5.9999999999999998e-01,  0.0000000000000000e+00,  4.1738580000000000e+06,  0.0000000000000000e+00, -5.9999999999999998e-01</GeoTransform>
+  <VRTRasterBand dataType="Byte" band="1">
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3611906_nw_11_060_20200803.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10220" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10220" ySize="12460" />
+      <DstRect xOff="17950" yOff="126910" xSize="10220" ySize="12460" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711833_sw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10130" RasterYSize="12420" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10130" ySize="12420" />
+      <DstRect xOff="75320" yOff="47290" xSize="10130" ySize="12420" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711841_nw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10140" RasterYSize="12430" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10140" ySize="12430" />
+      <DstRect xOff="75070" yOff="58840" xSize="10140" ySize="12430" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711841_sw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10150" RasterYSize="12420" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12420" />
+      <DstRect xOff="74830" yOff="70400" xSize="10150" ySize="12420" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711922_se_11_060_20200803.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10140" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10140" ySize="12450" />
+      <DstRect xOff="30330" yOff="0" xSize="10140" ySize="12450" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711923_sw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10130" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10130" ySize="12450" />
+      <DstRect xOff="39530" yOff="220" xSize="10130" ySize="12450" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711929_se_11_060_20200803.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10170" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10170" ySize="12460" />
+      <DstRect xOff="11350" yOff="22650" xSize="10170" ySize="12460" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711930_ne_11_060_20200803.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10150" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12460" />
+      <DstRect xOff="30050" yOff="11550" xSize="10150" ySize="12460" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711930_nw_11_060_20200803.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10150" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12460" />
+      <DstRect xOff="20850" yOff="11320" xSize="10150" ySize="12460" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711930_se_11_060_20200803.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10160" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10160" ySize="12460" />
+      <DstRect xOff="29760" yOff="23110" xSize="10160" ySize="12460" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711930_sw_11_060_20200803.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10170" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10170" ySize="12460" />
+      <DstRect xOff="20550" yOff="22880" xSize="10170" ySize="12460" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711931_ne_11_060_20200804.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10130" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10130" ySize="12440" />
+      <DstRect xOff="48450" yOff="12000" xSize="10130" ySize="12440" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711931_nw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10140" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10140" ySize="12440" />
+      <DstRect xOff="39250" yOff="11780" xSize="10140" ySize="12440" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711931_se_11_060_20200804.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10140" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10140" ySize="12440" />
+      <DstRect xOff="48180" yOff="23550" xSize="10140" ySize="12440" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711931_sw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10150" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12440" />
+      <DstRect xOff="38970" yOff="23340" xSize="10150" ySize="12440" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711932_sw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10130" RasterYSize="12430" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10130" ySize="12430" />
+      <DstRect xOff="57390" yOff="23770" xSize="10130" ySize="12430" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711937_ne_11_060_20200803.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10170" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10170" ySize="12460" />
+      <DstRect xOff="11050" yOff="34210" xSize="10170" ySize="12460" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711937_se_11_060_20200803.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10180" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10180" ySize="12460" />
+      <DstRect xOff="10750" yOff="45770" xSize="10180" ySize="12460" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711937_sw_11_060_20200803.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10200" RasterYSize="12470" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12470" />
+      <DstRect xOff="1520" yOff="45530" xSize="10200" ySize="12470" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711938_ne_11_060_20200803.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10160" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10160" ySize="12450" />
+      <DstRect xOff="29480" yOff="34670" xSize="10160" ySize="12450" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711938_nw_11_060_20200803.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10170" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10170" ySize="12460" />
+      <DstRect xOff="20260" yOff="34440" xSize="10170" ySize="12460" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711938_se_11_060_20200803.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10170" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10170" ySize="12450" />
+      <DstRect xOff="29200" yOff="46230" xSize="10170" ySize="12450" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711939_ne_11_060_20200804.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10150" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12440" />
+      <DstRect xOff="47910" yOff="35110" xSize="10150" ySize="12440" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711939_nw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10150" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12440" />
+      <DstRect xOff="38700" yOff="34900" xSize="10150" ySize="12440" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711939_se_11_060_20200804.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10150" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12440" />
+      <DstRect xOff="47650" yOff="46670" xSize="10150" ySize="12440" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711939_sw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10160" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10160" ySize="12450" />
+      <DstRect xOff="38420" yOff="46450" xSize="10160" ySize="12450" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711940_se_11_060_20200804.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10140" RasterYSize="12420" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10140" ySize="12420" />
+      <DstRect xOff="66090" yOff="47090" xSize="10140" ySize="12420" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711940_sw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10150" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12440" />
+      <DstRect xOff="56870" yOff="46880" xSize="10150" ySize="12440" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711945_ne_11_060_20200803.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10190" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10190" ySize="12460" />
+      <DstRect xOff="10450" yOff="57330" xSize="10190" ySize="12460" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711945_nw_11_060_20200803.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10200" RasterYSize="12470" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12470" />
+      <DstRect xOff="1220" yOff="57080" xSize="10200" ySize="12470" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711945_se_11_060_20200803.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10200" RasterYSize="12470" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12470" />
+      <DstRect xOff="10150" yOff="68880" xSize="10200" ySize="12470" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711945_sw_11_060_20200803.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10210" RasterYSize="12470" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12470" />
+      <DstRect xOff="910" yOff="68640" xSize="10210" ySize="12470" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711946_ne_11_060_20200803.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10180" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10180" ySize="12450" />
+      <DstRect xOff="28910" yOff="57790" xSize="10180" ySize="12450" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711946_nw_11_060_20200803.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10190" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10190" ySize="12460" />
+      <DstRect xOff="19680" yOff="57560" xSize="10190" ySize="12460" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711946_se_11_060_20200803.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10190" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10190" ySize="12450" />
+      <DstRect xOff="28630" yOff="69350" xSize="10190" ySize="12450" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711946_sw_11_060_20200803.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10190" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10190" ySize="12460" />
+      <DstRect xOff="19390" yOff="69120" xSize="10190" ySize="12460" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711947_ne_11_060_20200804.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10160" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10160" ySize="12440" />
+      <DstRect xOff="47380" yOff="58230" xSize="10160" ySize="12440" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711947_nw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10170" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10170" ySize="12450" />
+      <DstRect xOff="38150" yOff="58010" xSize="10170" ySize="12450" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711947_se_11_060_20200804.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10170" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10170" ySize="12440" />
+      <DstRect xOff="47110" yOff="69790" xSize="10170" ySize="12440" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711947_sw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10180" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10180" ySize="12450" />
+      <DstRect xOff="37870" yOff="69570" xSize="10180" ySize="12450" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711948_ne_11_060_20200804.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10150" RasterYSize="12420" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12420" />
+      <DstRect xOff="65840" yOff="58650" xSize="10150" ySize="12420" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711948_nw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10150" RasterYSize="12430" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12430" />
+      <DstRect xOff="56610" yOff="58440" xSize="10150" ySize="12430" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711948_se_11_060_20200804.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10150" RasterYSize="12430" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12430" />
+      <DstRect xOff="65590" yOff="70200" xSize="10150" ySize="12430" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711948_sw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10160" RasterYSize="12430" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10160" ySize="12430" />
+      <DstRect xOff="56350" yOff="70000" xSize="10160" ySize="12430" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711953_ne_11_060_20200803.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10210" RasterYSize="12470" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12470" />
+      <DstRect xOff="9850" yOff="80440" xSize="10210" ySize="12470" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711953_nw_11_060_20200803.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10210" RasterYSize="12470" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12470" />
+      <DstRect xOff="610" yOff="80200" xSize="10210" ySize="12470" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711953_se_11_060_20200803.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10210" RasterYSize="12470" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12470" />
+      <DstRect xOff="9560" yOff="92000" xSize="10210" ySize="12470" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711953_sw_11_060_20200803.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10220" RasterYSize="12470" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10220" ySize="12470" />
+      <DstRect xOff="300" yOff="91760" xSize="10220" ySize="12470" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711954_ne_11_060_20200803.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10190" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10190" ySize="12450" />
+      <DstRect xOff="28350" yOff="80910" xSize="10190" ySize="12450" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711954_nw_11_060_20200803.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10200" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12460" />
+      <DstRect xOff="19100" yOff="80680" xSize="10200" ySize="12460" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711954_se_11_060_20200803.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10200" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12450" />
+      <DstRect xOff="28070" yOff="92470" xSize="10200" ySize="12450" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711954_sw_11_060_20200803.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10210" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12450" />
+      <DstRect xOff="18810" yOff="92240" xSize="10210" ySize="12450" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711955_ne_11_060_20200804.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10180" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10180" ySize="12440" />
+      <DstRect xOff="46840" yOff="81350" xSize="10180" ySize="12440" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711955_nw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10180" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10180" ySize="12450" />
+      <DstRect xOff="37600" yOff="81130" xSize="10180" ySize="12450" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711955_se_11_060_20200804.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10180" RasterYSize="12430" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10180" ySize="12430" />
+      <DstRect xOff="46580" yOff="92910" xSize="10180" ySize="12430" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711955_sw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10190" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10190" ySize="12440" />
+      <DstRect xOff="37320" yOff="92690" xSize="10190" ySize="12440" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711956_nw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10170" RasterYSize="12430" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10170" ySize="12430" />
+      <DstRect xOff="56090" yOff="81560" xSize="10170" ySize="12430" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711961_ne_11_060_20200803.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10220" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10220" ySize="12460" />
+      <DstRect xOff="9260" yOff="103560" xSize="10220" ySize="12460" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711961_nw_11_060_20200803.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10230" RasterYSize="12470" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10230" ySize="12470" />
+      <DstRect xOff="0" yOff="103320" xSize="10230" ySize="12470" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711961_se_11_060_20200803.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10230" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10230" ySize="12460" />
+      <DstRect xOff="8960" yOff="115120" xSize="10230" ySize="12460" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711963_ne_11_060_20200804.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10190" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10190" ySize="12440" />
+      <DstRect xOff="46310" yOff="104460" xSize="10190" ySize="12440" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711963_nw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10200" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12440" />
+      <DstRect xOff="37050" yOff="104250" xSize="10200" ySize="12440" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="2">
+    <ColorInterp>Red</ColorInterp>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3611906_nw_11_060_20200803.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10220" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10220" ySize="12460" />
+      <DstRect xOff="17950" yOff="126910" xSize="10220" ySize="12460" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711833_sw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10130" RasterYSize="12420" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10130" ySize="12420" />
+      <DstRect xOff="75320" yOff="47290" xSize="10130" ySize="12420" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711841_nw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10140" RasterYSize="12430" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10140" ySize="12430" />
+      <DstRect xOff="75070" yOff="58840" xSize="10140" ySize="12430" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711841_sw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10150" RasterYSize="12420" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12420" />
+      <DstRect xOff="74830" yOff="70400" xSize="10150" ySize="12420" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711922_se_11_060_20200803.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10140" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10140" ySize="12450" />
+      <DstRect xOff="30330" yOff="0" xSize="10140" ySize="12450" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711923_sw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10130" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10130" ySize="12450" />
+      <DstRect xOff="39530" yOff="220" xSize="10130" ySize="12450" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711929_se_11_060_20200803.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10170" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10170" ySize="12460" />
+      <DstRect xOff="11350" yOff="22650" xSize="10170" ySize="12460" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711930_ne_11_060_20200803.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10150" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12460" />
+      <DstRect xOff="30050" yOff="11550" xSize="10150" ySize="12460" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711930_nw_11_060_20200803.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10150" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12460" />
+      <DstRect xOff="20850" yOff="11320" xSize="10150" ySize="12460" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711930_se_11_060_20200803.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10160" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10160" ySize="12460" />
+      <DstRect xOff="29760" yOff="23110" xSize="10160" ySize="12460" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711930_sw_11_060_20200803.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10170" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10170" ySize="12460" />
+      <DstRect xOff="20550" yOff="22880" xSize="10170" ySize="12460" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711931_ne_11_060_20200804.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10130" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10130" ySize="12440" />
+      <DstRect xOff="48450" yOff="12000" xSize="10130" ySize="12440" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711931_nw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10140" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10140" ySize="12440" />
+      <DstRect xOff="39250" yOff="11780" xSize="10140" ySize="12440" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711931_se_11_060_20200804.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10140" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10140" ySize="12440" />
+      <DstRect xOff="48180" yOff="23550" xSize="10140" ySize="12440" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711931_sw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10150" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12440" />
+      <DstRect xOff="38970" yOff="23340" xSize="10150" ySize="12440" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711932_sw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10130" RasterYSize="12430" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10130" ySize="12430" />
+      <DstRect xOff="57390" yOff="23770" xSize="10130" ySize="12430" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711937_ne_11_060_20200803.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10170" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10170" ySize="12460" />
+      <DstRect xOff="11050" yOff="34210" xSize="10170" ySize="12460" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711937_se_11_060_20200803.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10180" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10180" ySize="12460" />
+      <DstRect xOff="10750" yOff="45770" xSize="10180" ySize="12460" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711937_sw_11_060_20200803.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10200" RasterYSize="12470" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12470" />
+      <DstRect xOff="1520" yOff="45530" xSize="10200" ySize="12470" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711938_ne_11_060_20200803.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10160" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10160" ySize="12450" />
+      <DstRect xOff="29480" yOff="34670" xSize="10160" ySize="12450" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711938_nw_11_060_20200803.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10170" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10170" ySize="12460" />
+      <DstRect xOff="20260" yOff="34440" xSize="10170" ySize="12460" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711938_se_11_060_20200803.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10170" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10170" ySize="12450" />
+      <DstRect xOff="29200" yOff="46230" xSize="10170" ySize="12450" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711939_ne_11_060_20200804.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10150" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12440" />
+      <DstRect xOff="47910" yOff="35110" xSize="10150" ySize="12440" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711939_nw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10150" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12440" />
+      <DstRect xOff="38700" yOff="34900" xSize="10150" ySize="12440" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711939_se_11_060_20200804.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10150" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12440" />
+      <DstRect xOff="47650" yOff="46670" xSize="10150" ySize="12440" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711939_sw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10160" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10160" ySize="12450" />
+      <DstRect xOff="38420" yOff="46450" xSize="10160" ySize="12450" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711940_se_11_060_20200804.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10140" RasterYSize="12420" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10140" ySize="12420" />
+      <DstRect xOff="66090" yOff="47090" xSize="10140" ySize="12420" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711940_sw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10150" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12440" />
+      <DstRect xOff="56870" yOff="46880" xSize="10150" ySize="12440" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711945_ne_11_060_20200803.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10190" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10190" ySize="12460" />
+      <DstRect xOff="10450" yOff="57330" xSize="10190" ySize="12460" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711945_nw_11_060_20200803.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10200" RasterYSize="12470" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12470" />
+      <DstRect xOff="1220" yOff="57080" xSize="10200" ySize="12470" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711945_se_11_060_20200803.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10200" RasterYSize="12470" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12470" />
+      <DstRect xOff="10150" yOff="68880" xSize="10200" ySize="12470" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711945_sw_11_060_20200803.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10210" RasterYSize="12470" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12470" />
+      <DstRect xOff="910" yOff="68640" xSize="10210" ySize="12470" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711946_ne_11_060_20200803.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10180" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10180" ySize="12450" />
+      <DstRect xOff="28910" yOff="57790" xSize="10180" ySize="12450" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711946_nw_11_060_20200803.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10190" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10190" ySize="12460" />
+      <DstRect xOff="19680" yOff="57560" xSize="10190" ySize="12460" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711946_se_11_060_20200803.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10190" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10190" ySize="12450" />
+      <DstRect xOff="28630" yOff="69350" xSize="10190" ySize="12450" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711946_sw_11_060_20200803.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10190" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10190" ySize="12460" />
+      <DstRect xOff="19390" yOff="69120" xSize="10190" ySize="12460" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711947_ne_11_060_20200804.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10160" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10160" ySize="12440" />
+      <DstRect xOff="47380" yOff="58230" xSize="10160" ySize="12440" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711947_nw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10170" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10170" ySize="12450" />
+      <DstRect xOff="38150" yOff="58010" xSize="10170" ySize="12450" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711947_se_11_060_20200804.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10170" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10170" ySize="12440" />
+      <DstRect xOff="47110" yOff="69790" xSize="10170" ySize="12440" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711947_sw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10180" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10180" ySize="12450" />
+      <DstRect xOff="37870" yOff="69570" xSize="10180" ySize="12450" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711948_ne_11_060_20200804.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10150" RasterYSize="12420" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12420" />
+      <DstRect xOff="65840" yOff="58650" xSize="10150" ySize="12420" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711948_nw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10150" RasterYSize="12430" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12430" />
+      <DstRect xOff="56610" yOff="58440" xSize="10150" ySize="12430" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711948_se_11_060_20200804.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10150" RasterYSize="12430" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12430" />
+      <DstRect xOff="65590" yOff="70200" xSize="10150" ySize="12430" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711948_sw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10160" RasterYSize="12430" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10160" ySize="12430" />
+      <DstRect xOff="56350" yOff="70000" xSize="10160" ySize="12430" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711953_ne_11_060_20200803.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10210" RasterYSize="12470" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12470" />
+      <DstRect xOff="9850" yOff="80440" xSize="10210" ySize="12470" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711953_nw_11_060_20200803.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10210" RasterYSize="12470" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12470" />
+      <DstRect xOff="610" yOff="80200" xSize="10210" ySize="12470" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711953_se_11_060_20200803.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10210" RasterYSize="12470" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12470" />
+      <DstRect xOff="9560" yOff="92000" xSize="10210" ySize="12470" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711953_sw_11_060_20200803.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10220" RasterYSize="12470" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10220" ySize="12470" />
+      <DstRect xOff="300" yOff="91760" xSize="10220" ySize="12470" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711954_ne_11_060_20200803.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10190" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10190" ySize="12450" />
+      <DstRect xOff="28350" yOff="80910" xSize="10190" ySize="12450" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711954_nw_11_060_20200803.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10200" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12460" />
+      <DstRect xOff="19100" yOff="80680" xSize="10200" ySize="12460" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711954_se_11_060_20200803.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10200" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12450" />
+      <DstRect xOff="28070" yOff="92470" xSize="10200" ySize="12450" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711954_sw_11_060_20200803.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10210" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12450" />
+      <DstRect xOff="18810" yOff="92240" xSize="10210" ySize="12450" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711955_ne_11_060_20200804.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10180" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10180" ySize="12440" />
+      <DstRect xOff="46840" yOff="81350" xSize="10180" ySize="12440" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711955_nw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10180" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10180" ySize="12450" />
+      <DstRect xOff="37600" yOff="81130" xSize="10180" ySize="12450" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711955_se_11_060_20200804.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10180" RasterYSize="12430" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10180" ySize="12430" />
+      <DstRect xOff="46580" yOff="92910" xSize="10180" ySize="12430" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711955_sw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10190" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10190" ySize="12440" />
+      <DstRect xOff="37320" yOff="92690" xSize="10190" ySize="12440" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711956_nw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10170" RasterYSize="12430" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10170" ySize="12430" />
+      <DstRect xOff="56090" yOff="81560" xSize="10170" ySize="12430" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711961_ne_11_060_20200803.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10220" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10220" ySize="12460" />
+      <DstRect xOff="9260" yOff="103560" xSize="10220" ySize="12460" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711961_nw_11_060_20200803.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10230" RasterYSize="12470" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10230" ySize="12470" />
+      <DstRect xOff="0" yOff="103320" xSize="10230" ySize="12470" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711961_se_11_060_20200803.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10230" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10230" ySize="12460" />
+      <DstRect xOff="8960" yOff="115120" xSize="10230" ySize="12460" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711963_ne_11_060_20200804.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10190" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10190" ySize="12440" />
+      <DstRect xOff="46310" yOff="104460" xSize="10190" ySize="12440" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711963_nw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10200" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12440" />
+      <DstRect xOff="37050" yOff="104250" xSize="10200" ySize="12440" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="3">
+    <ColorInterp>Green</ColorInterp>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3611906_nw_11_060_20200803.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10220" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10220" ySize="12460" />
+      <DstRect xOff="17950" yOff="126910" xSize="10220" ySize="12460" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711833_sw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10130" RasterYSize="12420" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10130" ySize="12420" />
+      <DstRect xOff="75320" yOff="47290" xSize="10130" ySize="12420" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711841_nw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10140" RasterYSize="12430" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10140" ySize="12430" />
+      <DstRect xOff="75070" yOff="58840" xSize="10140" ySize="12430" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711841_sw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10150" RasterYSize="12420" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12420" />
+      <DstRect xOff="74830" yOff="70400" xSize="10150" ySize="12420" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711922_se_11_060_20200803.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10140" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10140" ySize="12450" />
+      <DstRect xOff="30330" yOff="0" xSize="10140" ySize="12450" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711923_sw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10130" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10130" ySize="12450" />
+      <DstRect xOff="39530" yOff="220" xSize="10130" ySize="12450" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711929_se_11_060_20200803.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10170" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10170" ySize="12460" />
+      <DstRect xOff="11350" yOff="22650" xSize="10170" ySize="12460" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711930_ne_11_060_20200803.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10150" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12460" />
+      <DstRect xOff="30050" yOff="11550" xSize="10150" ySize="12460" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711930_nw_11_060_20200803.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10150" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12460" />
+      <DstRect xOff="20850" yOff="11320" xSize="10150" ySize="12460" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711930_se_11_060_20200803.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10160" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10160" ySize="12460" />
+      <DstRect xOff="29760" yOff="23110" xSize="10160" ySize="12460" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711930_sw_11_060_20200803.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10170" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10170" ySize="12460" />
+      <DstRect xOff="20550" yOff="22880" xSize="10170" ySize="12460" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711931_ne_11_060_20200804.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10130" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10130" ySize="12440" />
+      <DstRect xOff="48450" yOff="12000" xSize="10130" ySize="12440" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711931_nw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10140" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10140" ySize="12440" />
+      <DstRect xOff="39250" yOff="11780" xSize="10140" ySize="12440" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711931_se_11_060_20200804.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10140" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10140" ySize="12440" />
+      <DstRect xOff="48180" yOff="23550" xSize="10140" ySize="12440" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711931_sw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10150" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12440" />
+      <DstRect xOff="38970" yOff="23340" xSize="10150" ySize="12440" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711932_sw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10130" RasterYSize="12430" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10130" ySize="12430" />
+      <DstRect xOff="57390" yOff="23770" xSize="10130" ySize="12430" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711937_ne_11_060_20200803.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10170" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10170" ySize="12460" />
+      <DstRect xOff="11050" yOff="34210" xSize="10170" ySize="12460" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711937_se_11_060_20200803.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10180" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10180" ySize="12460" />
+      <DstRect xOff="10750" yOff="45770" xSize="10180" ySize="12460" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711937_sw_11_060_20200803.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10200" RasterYSize="12470" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12470" />
+      <DstRect xOff="1520" yOff="45530" xSize="10200" ySize="12470" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711938_ne_11_060_20200803.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10160" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10160" ySize="12450" />
+      <DstRect xOff="29480" yOff="34670" xSize="10160" ySize="12450" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711938_nw_11_060_20200803.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10170" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10170" ySize="12460" />
+      <DstRect xOff="20260" yOff="34440" xSize="10170" ySize="12460" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711938_se_11_060_20200803.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10170" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10170" ySize="12450" />
+      <DstRect xOff="29200" yOff="46230" xSize="10170" ySize="12450" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711939_ne_11_060_20200804.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10150" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12440" />
+      <DstRect xOff="47910" yOff="35110" xSize="10150" ySize="12440" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711939_nw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10150" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12440" />
+      <DstRect xOff="38700" yOff="34900" xSize="10150" ySize="12440" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711939_se_11_060_20200804.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10150" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12440" />
+      <DstRect xOff="47650" yOff="46670" xSize="10150" ySize="12440" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711939_sw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10160" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10160" ySize="12450" />
+      <DstRect xOff="38420" yOff="46450" xSize="10160" ySize="12450" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711940_se_11_060_20200804.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10140" RasterYSize="12420" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10140" ySize="12420" />
+      <DstRect xOff="66090" yOff="47090" xSize="10140" ySize="12420" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711940_sw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10150" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12440" />
+      <DstRect xOff="56870" yOff="46880" xSize="10150" ySize="12440" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711945_ne_11_060_20200803.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10190" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10190" ySize="12460" />
+      <DstRect xOff="10450" yOff="57330" xSize="10190" ySize="12460" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711945_nw_11_060_20200803.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10200" RasterYSize="12470" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12470" />
+      <DstRect xOff="1220" yOff="57080" xSize="10200" ySize="12470" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711945_se_11_060_20200803.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10200" RasterYSize="12470" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12470" />
+      <DstRect xOff="10150" yOff="68880" xSize="10200" ySize="12470" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711945_sw_11_060_20200803.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10210" RasterYSize="12470" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12470" />
+      <DstRect xOff="910" yOff="68640" xSize="10210" ySize="12470" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711946_ne_11_060_20200803.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10180" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10180" ySize="12450" />
+      <DstRect xOff="28910" yOff="57790" xSize="10180" ySize="12450" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711946_nw_11_060_20200803.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10190" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10190" ySize="12460" />
+      <DstRect xOff="19680" yOff="57560" xSize="10190" ySize="12460" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711946_se_11_060_20200803.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10190" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10190" ySize="12450" />
+      <DstRect xOff="28630" yOff="69350" xSize="10190" ySize="12450" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711946_sw_11_060_20200803.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10190" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10190" ySize="12460" />
+      <DstRect xOff="19390" yOff="69120" xSize="10190" ySize="12460" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711947_ne_11_060_20200804.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10160" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10160" ySize="12440" />
+      <DstRect xOff="47380" yOff="58230" xSize="10160" ySize="12440" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711947_nw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10170" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10170" ySize="12450" />
+      <DstRect xOff="38150" yOff="58010" xSize="10170" ySize="12450" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711947_se_11_060_20200804.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10170" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10170" ySize="12440" />
+      <DstRect xOff="47110" yOff="69790" xSize="10170" ySize="12440" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711947_sw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10180" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10180" ySize="12450" />
+      <DstRect xOff="37870" yOff="69570" xSize="10180" ySize="12450" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711948_ne_11_060_20200804.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10150" RasterYSize="12420" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12420" />
+      <DstRect xOff="65840" yOff="58650" xSize="10150" ySize="12420" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711948_nw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10150" RasterYSize="12430" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12430" />
+      <DstRect xOff="56610" yOff="58440" xSize="10150" ySize="12430" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711948_se_11_060_20200804.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10150" RasterYSize="12430" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10150" ySize="12430" />
+      <DstRect xOff="65590" yOff="70200" xSize="10150" ySize="12430" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711948_sw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10160" RasterYSize="12430" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10160" ySize="12430" />
+      <DstRect xOff="56350" yOff="70000" xSize="10160" ySize="12430" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711953_ne_11_060_20200803.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10210" RasterYSize="12470" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12470" />
+      <DstRect xOff="9850" yOff="80440" xSize="10210" ySize="12470" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711953_nw_11_060_20200803.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10210" RasterYSize="12470" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12470" />
+      <DstRect xOff="610" yOff="80200" xSize="10210" ySize="12470" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711953_se_11_060_20200803.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10210" RasterYSize="12470" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12470" />
+      <DstRect xOff="9560" yOff="92000" xSize="10210" ySize="12470" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711953_sw_11_060_20200803.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10220" RasterYSize="12470" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10220" ySize="12470" />
+      <DstRect xOff="300" yOff="91760" xSize="10220" ySize="12470" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711954_ne_11_060_20200803.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10190" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10190" ySize="12450" />
+      <DstRect xOff="28350" yOff="80910" xSize="10190" ySize="12450" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711954_nw_11_060_20200803.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10200" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12460" />
+      <DstRect xOff="19100" yOff="80680" xSize="10200" ySize="12460" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711954_se_11_060_20200803.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10200" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12450" />
+      <DstRect xOff="28070" yOff="92470" xSize="10200" ySize="12450" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711954_sw_11_060_20200803.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10210" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10210" ySize="12450" />
+      <DstRect xOff="18810" yOff="92240" xSize="10210" ySize="12450" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711955_ne_11_060_20200804.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10180" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10180" ySize="12440" />
+      <DstRect xOff="46840" yOff="81350" xSize="10180" ySize="12440" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711955_nw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10180" RasterYSize="12450" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10180" ySize="12450" />
+      <DstRect xOff="37600" yOff="81130" xSize="10180" ySize="12450" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711955_se_11_060_20200804.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10180" RasterYSize="12430" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10180" ySize="12430" />
+      <DstRect xOff="46580" yOff="92910" xSize="10180" ySize="12430" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711955_sw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10190" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10190" ySize="12440" />
+      <DstRect xOff="37320" yOff="92690" xSize="10190" ySize="12440" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711956_nw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10170" RasterYSize="12430" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10170" ySize="12430" />
+      <DstRect xOff="56090" yOff="81560" xSize="10170" ySize="12430" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711961_ne_11_060_20200803.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10220" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10220" ySize="12460" />
+      <DstRect xOff="9260" yOff="103560" xSize="10220" ySize="12460" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711961_nw_11_060_20200803.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10230" RasterYSize="12470" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10230" ySize="12470" />
+      <DstRect xOff="0" yOff="103320" xSize="10230" ySize="12470" />
+    </SimpleSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711961_se_11_060_20200803.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10230" RasterYSize="12460" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10230" ySize="12460" />
+      <DstRect xOff="8960" yOff="115120" xSize="10230" ySize="12460" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711963_ne_11_060_20200804.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10190" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10190" ySize="12440" />
+      <DstRect xOff="46310" yOff="104460" xSize="10190" ySize="12440" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://web.stanford.edu/group/earthsys144spring/mortalitree/creek_2020/cog/prefire/m_3711963_nw_11_060_20200804.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10200" RasterYSize="12440" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10200" ySize="12440" />
+      <DstRect xOff="37050" yOff="104250" xSize="10200" ySize="12440" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <OverviewList resampling="nearest">2 4 8 16 32</OverviewList>
+</VRTDataset>

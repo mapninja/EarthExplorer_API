@@ -1,5 +1,10 @@
 # Downloads
 downloads/
-.env
 notebooks/downloads/
 .env
+.DS_Store
+notebooks/processing_temp/
+notebooks/north_complex_2020/
+notebooks/castle_2020/
+notebooks/czu_aug_lightning_2020/
+notebooks/creek_2020/
